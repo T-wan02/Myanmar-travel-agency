@@ -13,8 +13,6 @@ const leftBtn = document.getElementById('leftBtn')
 const nav = document.getElementById('nav');
 const navItem = document.querySelectorAll('#nav a');
 
-// console.log(navItem);
-
 let idxImg = 0
 
 containerHome.style.width = `${100 * cauroselHome.length}vw`
@@ -76,17 +74,3 @@ window.addEventListener('scroll', () => {
           lineForExplore.classList.add('animate__fadeInUp')
      }
 })
-
-// window.addEventListener('scroll', () => {
-//      if(window.scrollY > 10){
-//           clearInterval(scrollTopAni)
-//           console.log('hello1')
-//           setInterval(scrollAni,1000)
-//      }else if(window.scrollY < exploreSec.offsetTop){
-//           clearInterval(scrollAni)
-//           console.log('hello')
-//           setInterval(scrollTopAni,1000)
-//      }else if(window.scrollY < 10){
-          
-//      }
-// })
